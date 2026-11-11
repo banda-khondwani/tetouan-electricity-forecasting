@@ -1,0 +1,13 @@
+strategy,zone,candidate
+original_selected,zone1,boost_with_weather
+original_selected,zone2,baseline
+original_selected,zone3,ridge_with_weather
+rf_selected,zone1,rf_with_weather
+rf_selected,zone2,rf_with_weather
+rf_selected,zone3,rf_with_weather
+lgbm_selected,zone1,lgbm_with_weather
+lgbm_selected,zone2,lgbm_with_weather
+lgbm_selected,zone3,lgbm_with_weather
+extended_selected,zone1,boost_with_weather
+extended_selected,zone2,rf_with_weather
+extended_selected,zone3,ridge_with_weather

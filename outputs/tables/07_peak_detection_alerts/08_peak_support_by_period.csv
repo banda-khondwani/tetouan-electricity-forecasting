@@ -1,0 +1,13 @@
+period,series,readings,peak_readings,peak_days,observed_days,peak_pct
+training,zone1,33840,1692,120,235,5.0
+training,zone2,33840,1693,69,235,5.002955082742317
+training,zone3,33840,1692,61,235,5.0
+training,total,33840,1692,81,235,5.0
+validation,zone1,8784,589,45,61,6.705373406193078
+validation,zone2,8784,280,18,61,3.1876138433515484
+validation,zone3,8784,0,0,61,0.0
+validation,total,8784,0,0,61,0.0
+test,zone1,8640,0,0,60,0.0
+test,zone2,8640,1595,58,60,18.46064814814815
+test,zone3,8640,0,0,60,0.0
+test,total,8640,0,0,60,0.0

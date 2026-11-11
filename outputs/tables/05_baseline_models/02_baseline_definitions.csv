@@ -1,0 +1,6 @@
+baseline,rule,fitting
+origin_persistence,Repeat the one origin reading for the entire target day,None
+previous_day,Observed demand at target minus 1 day,None
+previous_week,Observed demand at target minus 7 days,None
+seven_day_mean,Mean previous seven daily same-clock observations,None
+weekly_profile,Training-only weekday × ten-minute-slot mean,Training labels through 2017-08-31 23:50:00

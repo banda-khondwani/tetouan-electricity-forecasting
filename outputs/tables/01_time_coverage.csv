@@ -1,0 +1,8 @@
+check,result
+Rows,52416
+Observed days,364
+Duplicate timestamps,0
+Missing timestamps within observed period,0
+First timestamp,2017-01-01 00:00:00
+Last timestamp,2017-12-30 23:50:00
+Calendar dates absent from file,2017-12-31

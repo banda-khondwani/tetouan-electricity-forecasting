@@ -1,0 +1,13 @@
+zone,baseline,maximum_absolute_difference
+zone1,origin_persistence,0.0
+zone1,previous_day,0.0
+zone1,previous_week,0.0
+zone1,seven_day_mean,0.0
+zone2,origin_persistence,0.0
+zone2,previous_day,0.0
+zone2,previous_week,0.0
+zone2,seven_day_mean,0.0
+zone3,origin_persistence,0.0
+zone3,previous_day,0.0
+zone3,previous_week,0.0
+zone3,seven_day_mean,0.0

@@ -1,0 +1,16 @@
+,value
+observations,52416.0
+observed_days,364.0
+combined_mean,71222.88586428427
+combined_median,69788.79094
+combined_std,17143.138963686677
+typical_peak_hour,20.0
+typical_peak_hour_mean,98037.11011025641
+typical_low_hour,6.0
+typical_low_hour_mean,50189.8957267184
+maximum_individual_combined,134208.14595
+minimum_individual_combined,36785.039739
+highest_month,7.0
+lowest_month,12.0
+july_vs_december_pct,38.309659073537986
+weekend_vs_weekday_pct,-3.773540007975773

@@ -1,0 +1,13 @@
+candidate,zone,features,training_rows,fit_seconds
+rf_no_weather,zone1,57,33840,96.71602030005306
+rf_no_weather,zone2,57,33840,95.56600870005786
+rf_no_weather,zone3,57,33840,111.7212382000871
+rf_with_weather,zone1,72,33840,122.18167689989787
+rf_with_weather,zone2,72,33840,127.86413770006038
+rf_with_weather,zone3,72,33840,133.97684030001983
+lgbm_no_weather,zone1,57,33840,2.9727546999929473
+lgbm_no_weather,zone2,57,33840,2.913827200070955
+lgbm_no_weather,zone3,57,33840,2.7057338999584317
+lgbm_with_weather,zone1,72,33840,3.791791900061071
+lgbm_with_weather,zone2,72,33840,3.581503299996257
+lgbm_with_weather,zone3,72,33840,3.366044900030829

@@ -1,0 +1,10 @@
+               column          dtype                           description                    unit_or_time_note
+             datetime datetime64[us]                 Observation timestamp Timezone-naive; ten-minute intervals
+          temperature        float64              Recorded air temperature                      Degrees Celsius
+             humidity        float64            Recorded relative humidity                              Percent
+           wind_speed        float64                   Recorded wind speed    Source unit requires confirmation
+general_diffuse_flows        float64        Recorded general diffuse flows    Source unit requires confirmation
+        diffuse_flows        float64                Recorded diffuse flows    Source unit requires confirmation
+                zone1        float64 Recorded electricity demand in Zone 1    Source unit requires confirmation
+                zone2        float64 Recorded electricity demand in Zone 2    Source unit requires confirmation
+                zone3        float64 Recorded electricity demand in Zone 3    Source unit requires confirmation

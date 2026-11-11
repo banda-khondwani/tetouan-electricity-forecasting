@@ -1,0 +1,9 @@
+period,method,series,n,actual_peaks,warnings,TP,FP,FN,TN,precision,recall,F1,false_positive_rate,accuracy,peak_prevalence_pct
+test,baseline,zone1,60,0,0,0,0,0,60,,,,0.0,1.0,0.0
+test,baseline,zone2,60,58,58,56,2,2,0,0.9655172413793104,0.9655172413793104,0.9655172413793104,1.0,0.9333333333333333,96.66666666666667
+test,baseline,zone3,60,0,0,0,0,0,60,,,,0.0,1.0,0.0
+test,baseline,total,60,0,0,0,0,0,60,,,,0.0,1.0,0.0
+test,selected,zone1,60,0,15,0,15,0,45,0.0,,0.0,0.25,0.75,0.0
+test,selected,zone2,60,58,58,56,2,2,0,0.9655172413793104,0.9655172413793104,0.9655172413793104,1.0,0.9333333333333333,96.66666666666667
+test,selected,zone3,60,0,0,0,0,0,60,,,,0.0,1.0,0.0
+test,selected,total,60,0,0,0,0,0,60,,,,0.0,1.0,0.0

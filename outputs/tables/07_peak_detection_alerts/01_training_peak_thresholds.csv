@@ -1,0 +1,5 @@
+series,threshold,quantile,training_peak_readings,training_readings,training_peak_pct
+zone1,45037.398334,0.95,1692,33840,5.0
+zone2,29206.32911,0.95,1693,33840,5.002955082742317
+zone3,32397.0273085,0.95,1692,33840,5.0
+total,103272.9341135,0.95,1692,33840,5.0

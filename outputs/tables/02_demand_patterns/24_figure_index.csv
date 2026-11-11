@@ -1,0 +1,12 @@
+figure,purpose
+01_daily_demand_overview,Daily evolution and within-day range
+02_demand_histograms,Demand distributions and mean versus median
+03_boxplots_and_duration_curves,Zone spread and duration of demand levels
+04_hourly_profiles,Typical hourly means and observed IQR
+05_weekday_and_weekend_patterns,Weekly means and weekday/weekend hourly profiles
+06_monthly_mean_profiles,Monthly means and zone differences
+07_monthly_distribution_of_daily_means,Day-to-day variation within each month
+08_zone_contributions,Overall and monthly zone composition
+09_zone_month_hour_heatmaps,Month-hour interaction by zone
+10_combined_weekday_hour_heatmap,Weekday-hour interaction for combined demand
+11_zone_and_lag_correlations,Zone co-movement and selected lag correlations

@@ -1,0 +1,15 @@
+figure,purpose
+01_weather_distributions,Distribution shape of all five weather fields
+02_daily_weather_patterns,Daily weather changes during 2017
+03_hourly_weather_and_demand_profiles,Hourly weather and demand timing
+04_weather_correlation_matrix,Overlap among weather fields
+05_raw_weather_demand_correlations,Raw correlations by demand zone
+06_temperature_humidity_density,Individual temperature and humidity relationships
+07_wind_flow_density,Individual wind and flow relationships
+08_binned_temperature_humidity,Binned demand levels and observed variability
+09_temperature_daypart_comparison,Temperature association by part of day
+10_raw_vs_calendar_adjusted_correlations,Calendar structure versus within-group relationships
+11_calendar_deviation_binned_relationships,Binned relationships after calendar adjustment
+12_aggregation_sensitivity,Correlation sensitivity to aggregation
+13_wind_distribution_diagnostics,Wind clusters and monthly composition
+14_flow_measurement_relationship,Flow overlap and low-value concentration

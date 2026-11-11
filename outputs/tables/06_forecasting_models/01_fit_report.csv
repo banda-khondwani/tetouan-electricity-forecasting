@@ -1,0 +1,13 @@
+,candidate,zone,features,fit_and_predict_seconds
+0,ridge_no_weather,zone1,57,0.6459533999441192
+1,ridge_no_weather,zone2,57,0.14543219993356615
+2,ridge_no_weather,zone3,57,0.1535695999627933
+3,ridge_with_weather,zone1,72,0.21995749999769032
+4,ridge_with_weather,zone2,72,0.2124890999402851
+5,ridge_with_weather,zone3,72,0.2282228999538347
+6,boost_no_weather,zone1,57,2.288493199972436
+7,boost_no_weather,zone2,57,1.899718499975279
+8,boost_no_weather,zone3,57,1.9227024000138044
+9,boost_with_weather,zone1,72,2.333160200039856
+10,boost_with_weather,zone2,72,2.4183150000171736
+11,boost_with_weather,zone3,72,2.3169255000539124

@@ -1,0 +1,9 @@
+column,longest_identical_run,elapsed_minutes_first_to_last
+temperature,4,30
+humidity,9,80
+wind_speed,7,60
+general_diffuse_flows,5,40
+diffuse_flows,5,40
+zone1,3,20
+zone2,3,20
+zone3,3,20

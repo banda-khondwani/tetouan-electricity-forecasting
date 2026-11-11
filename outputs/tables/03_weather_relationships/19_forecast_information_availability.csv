@@ -1,0 +1,7 @@
+information,example,availability,rule
+Calendar fields,"Target hour, weekday, month",Known ahead,Use the target calendar without fitting on later outcomes.
+Past demand,Earlier zone readings,Known only through forecast origin,Align each lag with the agreed horizon; never use later observations.
+Past weather,Earlier weather/flow readings,Known only through forecast origin,Lag or aggregate only information already observed.
+Future observed weather,Recorded weather at target time,Not generally known ahead,Exclude from a practical forecast unless explicitly labelled as a perfect-weather scenario.
+Weather forecasts,Predictions issued before target time,Potentially available if archived,Require a separate source with issue times; none is provided in this dataset.
+Calendar-adjusted deviations here,Full-file month/hour averages,Retrospective analysis only,Do not reuse these full-file group means as forecasting preprocessing.

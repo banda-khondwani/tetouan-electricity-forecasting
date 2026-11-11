@@ -1,0 +1,10 @@
+,value
+observations,52416.0
+observed_days,364.0
+temperature_combined_raw_pearson,0.4882384320045385
+temperature_combined_within_month_hour,0.07983040630198292
+temperature_combined_daily_mean_pearson,0.7322440429712693
+wind_combined_raw_pearson,0.22170610549660444
+wind_combined_within_month_hour,-0.04627163854578344
+wind_below_0_1_pct,57.009310134310134
+wind_4_through_6_pct,38.621794871794876

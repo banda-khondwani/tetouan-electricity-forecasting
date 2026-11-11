@@ -1,0 +1,73 @@
+feature,group,definition,source_reference,earliest_source_lag_steps,latest_source_lag_steps,earliest_origin_offset_min_minutes,earliest_origin_offset_max_minutes,latest_origin_offset_min_minutes,latest_origin_offset_max_minutes
+target_hour,calendar,Known target-time calendar field,calendar,,,,,,
+target_minute,calendar,Known target-time calendar field,calendar,,,,,,
+target_weekday,calendar,Known target-time calendar field,calendar,,,,,,
+target_month,calendar,Known target-time calendar field,calendar,,,,,,
+target_is_weekend,calendar,Known target-time calendar field,calendar,,,,,,
+target_slot,calendar,Known target-time calendar field,calendar,,,,,,
+target_day_sin,calendar,Known target-time calendar field,calendar,,,,,,
+target_day_cos,calendar,Known target-time calendar field,calendar,,,,,,
+target_week_sin,calendar,Known target-time calendar field,calendar,,,,,,
+target_week_cos,calendar,Known target-time calendar field,calendar,,,,,,
+target_year_sin,calendar,Known target-time calendar field,calendar,,,,,,
+target_year_cos,calendar,Known target-time calendar field,calendar,,,,,,
+zone1_at_origin,load_history,Reading at daily issue,origin,0.0,0.0,0.0,0.0,0.0,0.0
+zone1_origin_lag_10min,load_history,Reading 1 ten-minute steps before issue,origin,1.0,1.0,-10.0,-10.0,-10.0,-10.0
+zone1_origin_lag_1h,load_history,Reading 6 ten-minute steps before issue,origin,6.0,6.0,-60.0,-60.0,-60.0,-60.0
+zone1_origin_lag_1d,load_history,Reading 144 ten-minute steps before issue,origin,144.0,144.0,-1440.0,-1440.0,-1440.0,-1440.0
+zone1_origin_lag_7d,load_history,Reading 1008 ten-minute steps before issue,origin,1008.0,1008.0,-10080.0,-10080.0,-10080.0,-10080.0
+zone1_target_lag_1d,load_history,Same target clock time 1 day(s) earlier,target,144.0,144.0,-1430.0,0.0,-1430.0,0.0
+zone1_target_lag_7d,load_history,Same target clock time 7 day(s) earlier,target,1008.0,1008.0,-10070.0,-8640.0,-10070.0,-8640.0
+zone1_origin_roll6_mean,load_history,mean of last 6 readings through issue; std ddof=0,origin,5.0,0.0,-50.0,-50.0,0.0,0.0
+zone1_origin_roll144_mean,load_history,mean of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone1_origin_roll144_std,load_history,std of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone1_origin_roll144_min,load_history,min of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone1_origin_roll144_max,load_history,max of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone1_origin_roll1008_mean,load_history,mean of last 1008 readings through issue; std ddof=0,origin,1007.0,0.0,-10070.0,-10070.0,0.0,0.0
+zone1_origin_roll1008_std,load_history,std of last 1008 readings through issue; std ddof=0,origin,1007.0,0.0,-10070.0,-10070.0,0.0,0.0
+zone1_previous7_same_clock_mean,load_history,Mean previous seven daily readings at target clock time,target,1008.0,144.0,-10070.0,-8640.0,-1430.0,0.0
+zone2_at_origin,load_history,Reading at daily issue,origin,0.0,0.0,0.0,0.0,0.0,0.0
+zone2_origin_lag_10min,load_history,Reading 1 ten-minute steps before issue,origin,1.0,1.0,-10.0,-10.0,-10.0,-10.0
+zone2_origin_lag_1h,load_history,Reading 6 ten-minute steps before issue,origin,6.0,6.0,-60.0,-60.0,-60.0,-60.0
+zone2_origin_lag_1d,load_history,Reading 144 ten-minute steps before issue,origin,144.0,144.0,-1440.0,-1440.0,-1440.0,-1440.0
+zone2_origin_lag_7d,load_history,Reading 1008 ten-minute steps before issue,origin,1008.0,1008.0,-10080.0,-10080.0,-10080.0,-10080.0
+zone2_target_lag_1d,load_history,Same target clock time 1 day(s) earlier,target,144.0,144.0,-1430.0,0.0,-1430.0,0.0
+zone2_target_lag_7d,load_history,Same target clock time 7 day(s) earlier,target,1008.0,1008.0,-10070.0,-8640.0,-10070.0,-8640.0
+zone2_origin_roll6_mean,load_history,mean of last 6 readings through issue; std ddof=0,origin,5.0,0.0,-50.0,-50.0,0.0,0.0
+zone2_origin_roll144_mean,load_history,mean of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone2_origin_roll144_std,load_history,std of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone2_origin_roll144_min,load_history,min of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone2_origin_roll144_max,load_history,max of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone2_origin_roll1008_mean,load_history,mean of last 1008 readings through issue; std ddof=0,origin,1007.0,0.0,-10070.0,-10070.0,0.0,0.0
+zone2_origin_roll1008_std,load_history,std of last 1008 readings through issue; std ddof=0,origin,1007.0,0.0,-10070.0,-10070.0,0.0,0.0
+zone2_previous7_same_clock_mean,load_history,Mean previous seven daily readings at target clock time,target,1008.0,144.0,-10070.0,-8640.0,-1430.0,0.0
+zone3_at_origin,load_history,Reading at daily issue,origin,0.0,0.0,0.0,0.0,0.0,0.0
+zone3_origin_lag_10min,load_history,Reading 1 ten-minute steps before issue,origin,1.0,1.0,-10.0,-10.0,-10.0,-10.0
+zone3_origin_lag_1h,load_history,Reading 6 ten-minute steps before issue,origin,6.0,6.0,-60.0,-60.0,-60.0,-60.0
+zone3_origin_lag_1d,load_history,Reading 144 ten-minute steps before issue,origin,144.0,144.0,-1440.0,-1440.0,-1440.0,-1440.0
+zone3_origin_lag_7d,load_history,Reading 1008 ten-minute steps before issue,origin,1008.0,1008.0,-10080.0,-10080.0,-10080.0,-10080.0
+zone3_target_lag_1d,load_history,Same target clock time 1 day(s) earlier,target,144.0,144.0,-1430.0,0.0,-1430.0,0.0
+zone3_target_lag_7d,load_history,Same target clock time 7 day(s) earlier,target,1008.0,1008.0,-10070.0,-8640.0,-10070.0,-8640.0
+zone3_origin_roll6_mean,load_history,mean of last 6 readings through issue; std ddof=0,origin,5.0,0.0,-50.0,-50.0,0.0,0.0
+zone3_origin_roll144_mean,load_history,mean of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone3_origin_roll144_std,load_history,std of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone3_origin_roll144_min,load_history,min of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone3_origin_roll144_max,load_history,max of last 144 readings through issue; std ddof=0,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+zone3_origin_roll1008_mean,load_history,mean of last 1008 readings through issue; std ddof=0,origin,1007.0,0.0,-10070.0,-10070.0,0.0,0.0
+zone3_origin_roll1008_std,load_history,std of last 1008 readings through issue; std ddof=0,origin,1007.0,0.0,-10070.0,-10070.0,0.0,0.0
+zone3_previous7_same_clock_mean,load_history,Mean previous seven daily readings at target clock time,target,1008.0,144.0,-10070.0,-8640.0,-1430.0,0.0
+temperature_at_origin,weather_history,Weather at daily issue,origin,0.0,0.0,0.0,0.0,0.0,0.0
+temperature_origin_roll144_mean,weather_history,Mean last144 weather readings through issue,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+temperature_origin_change6,weather_history,Issue reading minus reading six steps earlier,origin,6.0,0.0,-60.0,-60.0,0.0,0.0
+humidity_at_origin,weather_history,Weather at daily issue,origin,0.0,0.0,0.0,0.0,0.0,0.0
+humidity_origin_roll144_mean,weather_history,Mean last144 weather readings through issue,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+humidity_origin_change6,weather_history,Issue reading minus reading six steps earlier,origin,6.0,0.0,-60.0,-60.0,0.0,0.0
+wind_speed_at_origin,weather_history,Weather at daily issue,origin,0.0,0.0,0.0,0.0,0.0,0.0
+wind_speed_origin_roll144_mean,weather_history,Mean last144 weather readings through issue,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+wind_speed_origin_change6,weather_history,Issue reading minus reading six steps earlier,origin,6.0,0.0,-60.0,-60.0,0.0,0.0
+general_diffuse_flows_at_origin,weather_history,Weather at daily issue,origin,0.0,0.0,0.0,0.0,0.0,0.0
+general_diffuse_flows_origin_roll144_mean,weather_history,Mean last144 weather readings through issue,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+general_diffuse_flows_origin_change6,weather_history,Issue reading minus reading six steps earlier,origin,6.0,0.0,-60.0,-60.0,0.0,0.0
+diffuse_flows_at_origin,weather_history,Weather at daily issue,origin,0.0,0.0,0.0,0.0,0.0,0.0
+diffuse_flows_origin_roll144_mean,weather_history,Mean last144 weather readings through issue,origin,143.0,0.0,-1430.0,-1430.0,0.0,0.0
+diffuse_flows_origin_change6,weather_history,Issue reading minus reading six steps earlier,origin,6.0,0.0,-60.0,-60.0,0.0,0.0
